@@ -6,6 +6,7 @@ import { ProductList } from './styles';
 import { formatPrice } from '../../util/format';
 
 export default class Home extends Component {
+  // eslint-disable-next-line react/state-in-constructor
   state = {
     products: [],
   };
